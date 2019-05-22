@@ -1,41 +1,24 @@
 debugger;
-var a= 12;
-var b= 2016;
+var a= 2;
+switch(a){
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12: console.log('31 days');
+    break;
 
- switch(condtion){
-        case 1: a = "31 days";
-            break;
-        case 3: a = "31 days";
-            break;
-        case 5: a = "31 days";
-            break;
-        case 7: a = "31 days";
-        break;
-        case 9: a= "31 days" ;
-            break;
-        case 12: a= "31 days" ;
-            break;
-            document.write("month is leap"+a)
-          }
-          switch(condtion2){
-        case 2: b = "28 days";
-            break;
-        case 6: b = "June"; 
-            break;
-        case 7: b = "July";
-            break;
-        case 8: b = "August";
-            break
-        case 9: b = "September";
-            break;
-        case 10: b = "October";
-            break;
-        case 11: b = "November";
-            break;
-        case 12: b = "December";
-            break;
-        }
-if(b==2){
+    case 4:
+    case 6:
+    case 9:
+    case 11: console.log('30 days');
+    break;
 
-    document.write();
+    case 2: console.log('29 days');
 }
+function leapyear(year) {
+  return  year % 4 == 0;
+}
+console.log(leapyear(2016));
