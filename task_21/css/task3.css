@@ -1,0 +1,8 @@
+ p {
+  background: blue;
+  color: white;   
+  }
+  p.dbl {
+  background: red;
+  color: white;
+  }
