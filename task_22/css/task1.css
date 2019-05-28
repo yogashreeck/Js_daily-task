@@ -1,0 +1,21 @@
+.grid_cont{
+	display: grid;
+	grid-template-columns: repeat(3,200px);
+}
+.but1{
+	margin: 20px 20px 10px 170px;
+	border-color: red;
+	background-color: red;
+	color: white;
+}
+.but2{
+	border-color: red;
+	background-color: red;
+	color: white;
+}
+.but3{
+	margin: 5px 70px 30px 229px;
+	border-color: green;
+	background-color: green;
+	color: white;
+}
