@@ -8,15 +8,17 @@
 <body>
 	<h1>Get the Total</h1>
 	<div class="grid_cont">
-	<div><input id="box1" type="checkbox" name="nam">5$</div>
-	<div><input id="box2" type="checkbox" name="nam">10$</div>
-	<div><input id="box3" type="checkbox" name="nam">15$</div>
-	<div><input id="box4" type="checkbox" name="nam">20$</div>
-	<div><input id="box5" type="checkbox" name="nam">25$</div>
-	<div><input id="box6" type="checkbox" name="nam">30$</div>
+	<div><input  type="checkbox" name="nam" value="5">5$</div>
+	<div><input  type="checkbox" name="nam" value="10">10$</div>
+	<div><input  type="checkbox" name="nam" value="15">15$</div>
+	<div><input  type="checkbox" name="nam" value="20">20$</div>
+	<div><input  type="checkbox" name="nam" value="25">25$</div>
+	<div><input  type="checkbox" name="nam" value="30">30$</div>
 </div>
-	<button class="but1" onclick="">unselect all</button>
-	<button class="but2">select all</button><br>
-	<button class="but3" onclick="fn1()">submit</button>
+	<button class="but1" onclick="fn1()">select all</button>
+	<button class="but2" onclick="fn2()">unselect all</button><br>
+	<button id="but3" onclick="fn3()">submit</button>
+	<p id="total"></p>
+	<script type="text/javascript" src="./javscript/task1.js"></script>
 </body>
 </html>
